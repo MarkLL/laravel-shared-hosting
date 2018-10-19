@@ -52,11 +52,9 @@ I'm certainly not going to try and tell you how you should structure your develo
 * Best to separate data from the OS if possible. Better performance and easier backup / replacement of drives if one fails.
 * I like the name to be as short as possible as long as it has meaning. `Dev` is one letter shorter than `Code`.
 
-2. Under here we have a folder for each project, but instead of creating you new project directly under dev, first create a project directory (`D:\dev\MarkLL`) and install you new Laravel application into the `webApp` folder. **e.g. `D:\dev\MarkLL\webApp`**
-<br>
+2. Under here we have a folder for each project, but instead of creating you new project directly under dev, first create a project directory (`D:\dev\MarkLL`) and install you new Laravel application into the `webApp` folder. **e.g. `D:\dev\MarkLL\webApp`**<br>
 with **composer** you would run:<br>
-`composer create-project --prefer-dist laravel/laravel webApp`
-<br>
+`composer create-project --prefer-dist laravel/laravel webApp`<br>
 with the **Laravel Installer**, it would be:<br>
 `laravel new webApp`
 
